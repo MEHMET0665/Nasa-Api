@@ -1,0 +1,28 @@
+{
+  "name": "nasa_api",
+  "version": "1.0.0",
+  "description": "NASA Rover images backend server",
+  "main": "app",
+  "scripts": {
+    "start": "node app.js",
+    "develop": "nodemon app.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "nasa",
+    "api",
+    "node",
+    "express"
+  ],
+  "author": "tester",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.3.0",
+    "express": "^4.17.2",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
